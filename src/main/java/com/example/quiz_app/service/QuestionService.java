@@ -21,4 +21,11 @@ QuestionDao questionDao;
     public List<Question> getQuestionsByCategory(String category) {
         return questionDao.findByCategory(category);
     }
+
+    public String addQuestion(Question question) {
+        questionDao.save(question);
+        return "success";
+
+    }
+
 }
