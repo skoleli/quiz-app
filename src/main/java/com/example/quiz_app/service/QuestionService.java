@@ -11,8 +11,8 @@ import com.example.quiz_app.dao.QuestionDao;
 @Service
 public class QuestionService {
 
-@Autowired
-QuestionDao questionDao;
+    @Autowired
+    QuestionDao questionDao;
 
     public List<Question> getAllQuestions() {
         return questionDao.findAll();
