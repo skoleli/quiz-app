@@ -5,8 +5,8 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.example.quiz_app.Question;
 import com.example.quiz_app.dao.QuestionDao;
+import com.example.quiz_app.model.Question;
 
 @Service
 public class QuestionService {
